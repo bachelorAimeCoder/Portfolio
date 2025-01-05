@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <!-- La langue du document est définie en français -->
+<head>
+    <!-- Métadonnées pour définir l'encodage et la mise en page responsive -->
+    <meta charset="UTF-8"> <!-- Déclare l'encodage de caractères en UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Rend le site responsive pour s'adapter aux écrans mobiles -->
+    
+    <!-- Le titre de la page, qui apparaît dans l'onglet du navigateur -->
+    <title>Web Portfolio Nolann Ancelin</title>
+
+    <!-- Inclusion de la police 'Roboto' depuis Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Lien vers la feuille de style CSS externe -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Conteneur principal pour contenir tout le contenu du site -->
+<div class="container">
+    
+    <!-- En-tête principal du site -->
+    <header class="header">Portfolio Ancelin Nolann</header>
+
+    <!-- Barre de navigation avec des liens vers les différentes sections de la page -->
+    <nav class="navigation">
+        <!-- Chaque lien a une classe 'nav-button' pour le style et un identifiant pour la section ciblée -->
+        <a href="#about" class="nav-button">À propos de moi</a>
+        <a href="#experience" class="nav-button">Expérience</a>
+        <a href="#skills" class="nav-button">Compétences</a>
+        <a href="#contact" class="nav-button">Contacts</a>
+    </nav>
+
+    <!-- Section "À propos de moi" -->
+    <section class="about" id="about">
+        <!-- Titre de la section "A propos de moi" -->
+        <h2>A propos de moi :</h2> 
+        <!-- Description de l'étudiant, sa formation et ses ambitions -->
+        <i>Étudiant de 18 ans en première année de BTS SIO, à la Joliverie à Nantes, <br>passionné par le développement informatique. 
+        Je souhaite <br> commencer par un BTS SIO, puis poursuivre <br>potentiellement vers un master. <br>Ensuite, si possible, travailler<br>à mon compte.</i>
+        <br>
+        <img src="images/photoooo.PNG" class="photo">
+    </section>
+
+    <!-- Section "Compétences" : Affichage des compétences techniques avec des barres de progression -->
+    <section class="skills" id="skills">
+    
+        <!-- Première boîte de compétences pour afficher les langages de programmation -->
+        <div class="skill-box">
+            <!-- Titre spécifique pour cette boîte -->
+            <h2><div class="skill-title">Langages de programmation</div></h2>
+            
+            <!-- Conteneur des barres de progression pour chaque langage -->
+            <div class="progress-container">
+                <!-- Chaque barre de progression représente un langage -->
+                <div class="progress">
+                    <span>HTML</span>
+                    <div class="progress-bar" style="width: 70%;"></div> <!-- Progression de 70% pour HTML -->
+                </div>
+                <div class="progress">
+                    <span>CSS</span>
+                    <div class="progress-bar" style="width: 50%;"></div> <!-- Progression de 50% pour CSS -->
+                </div>
+                <div class="progress">
+                    <span>Python</span>
+                    <div class="progress-bar" style="width: 30%;"></div> <!-- Progression de 30% pour Python -->
+                </div>
+                <div class="progress">
+                    <span>SQL</span>
+                    <div class="progress-bar" style="width: 40%;"></div> <!-- Progression de 40% pour SQL -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Deuxième boîte de compétences pour afficher les compétences générales -->
+        <div class="skill-box">
+            <h2><div class="skill-title">Compétences</div></h2>
+            <!-- Liste des compétences générales -->
+            <ul class="skill-list">
+                <li>Travail en équipe</li>
+                <li>Autonomie</li>
+                <li>Capacité d'analyse</li>
+                <li>Capacité d'adaptation</li>
+                <li>Esprit Logique</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Section "Expérience" : Affichage des expériences professionnelles et projets -->
+    <section class="skills" id="experience">
+        <div class="skill-box">
+            <h2><div class="skill-title">Expérience</div></h2>
+            <!-- Liste des expériences et projets réalisés -->
+            <ul class="skill-list">
+                <li>Réalisation d'un portfolio (2024)</li>
+                <li>Réalisation de plusieurs entraînements dans différents langages de programmation</li>
+                <li>Travail saisonnier en tant que commis de cuisine (2 mois, 2024)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Section "Contact" : Affichage des informations de contact -->
+    <section class="projects" id="contact">
+        <!-- Case contact avec informations -->
+        <div class="box-contact">
+            <h2>Contact</h2>
+            <p>N° de téléphone : 06.74.45.00.65</p>
+            <p>Adresse : 9 rue Emile Masson</p>
+            <p>E-mail : nolann.ancelin@gmail.com</p>
+        </div>
+    
+        <!-- Conteneur des icônes de réseaux sociaux sous la case contact -->
+        <div class="social-icons">
+            <!-- Lien vers le profil YouTube -->
+            <a href="https://www.youtube.com/watch?v=bZ3SC6PvAC8" target="_blank" class="social-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="YouTube" />
+            </a>
+            <!-- Lien vers le profil LinkedIn -->
+            <a href="https://www.linkedin.com/in/nolann-ancelin-a79b51292/" target="_blank" class="social-icon">
+                <img src="https://blog.waalaxy.com/wp-content/uploads/2021/01/3-1.png" alt="LinkedIn" />
+            </a>
+            <!-- Lien vers le profil Instagram -->
+            <a href="https://www.instagram.com/nolannancelin/" target="_blank" class="social-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
+            </a>
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>
